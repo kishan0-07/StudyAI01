@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://studyai01.vercel.app">🌐 Live Demo</a> &nbsp;·&nbsp;
+  <a href="https://aivyapp.vercel.app">🌐 Live Demo</a> &nbsp;·&nbsp;
   <a href="#-features">Features</a> &nbsp;·&nbsp;
   <a href="#%EF%B8%8F-tech-stack">Tech Stack</a> &nbsp;·&nbsp;
   <a href="#-getting-started">Getting Started</a>
@@ -133,7 +133,7 @@ aivy/
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/Ren0-07/StudyAI01.git
+git clone https://github.com/kishan0-07/StudyAI01.git
 cd StudyAI01
 npm install
 ```
@@ -148,6 +148,8 @@ VITE_GOOGLE_AI_API_KEY=<your-gemini-api-key>
 VITE_SUPABASE_URL=<your-supabase-project-url>
 VITE_SUPABASE_PUBLISHABLE_KEY=<your-supabase-anon-key>
 ```
+
+> **Note:** `VITE_`-prefixed variables are bundled into the client-side JavaScript and are visible to anyone using the deployed app. For production, proxy Gemini calls through the Flask backend instead of calling the API directly from the client.
 
 ### 3. Set Up Supabase
 
@@ -192,12 +194,10 @@ Simply connect the GitHub repo to Vercel, add the environment variables, and dep
 
 ## 👥 Team
 
-Built by **Kishan Prajapati** .
+Built by **Kishan Prajapati**.
 
 ---
 
 <p align="center">
-  Made with ❤️ and ☕ by the Aivy team
+  Made with ❤️ and ☕ by Kishan
 </p>
-
-
